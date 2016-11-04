@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+    <line>
+      <![CDATA[
+The application url is :- https://www.flipkart.com]]>
+    </line>
+    <line>
+      <![CDATA[The test browser is :- firefox
+]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP01_SEARCHPRODUCT *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP02_VERIFY_USER_IS_ABLE_TO_VIEW_RATINGS_OF_THE_PRODUCT *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP03_VERIFY_FEILDS_ARE_EXPANDABLE *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[Element [[FirefoxDriver: firefox on WINDOWS (a0602cb7-457a-4544-9fea-3b3f4f44637d)] -> css selector: .dRqIrL._2GQLOX] could not be clicked! Element is not clickable at point (119, 9.399993896484375). Other element would receive the click: <div class="_1H5F__" data-reactid="10"></div>
+Command duration or timeout: 196 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ASDP1511PO01976', ip: '10.0.31.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a0602cb7-457a-4544-9fea-3b3f4f44637d]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP04_VERIFY_SELECT_DROPDOWN_IS_PRESENT *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP05_VERIFY_USER_NAVIGATES_TO_NEW_WINDOW *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP06_VERIFY_USER_IS_ABLE_TO_NAVIAGTE_ON_CLICKING_THE_PRODUCT *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: PageTitle for Moto E3 Power (Black, 16 GB) | Buy Moto E3 Power (Black, 16 GB) at Best Price in India | Flipkart.com contains: 'Moto E3 Power (Black, 16 GB) | Buy Moto E3 Power (Black, 16 GB) at Best Price in India | Flipkart.com'.]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP06_VERIFY_USER_IS_ABLE_TO_VERIFY_PINCODE *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP07_VERIFY_SIMILAR_PRODUCTS_ARE_PRESNT_FOR_PRODUCT_DETAILS_PAGE *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP08_VERIFY_USER_IS_ABLE_TO_BUY_THE_PRODUCT *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP09_VERIFY_USER_NAVIGATED_TO_SHIPPING_PAGE *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: PageTitle for Flipkart.com: Secure Payment: Login > Select Shipping Address > Review Order > Place Order contains: 'Flipkart.com: Secure Payment: Login > Select Shipping Address > Review Order > Place Order'.]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP10_VERIFY_USER_IS_ABLE_TO_SIGNUP_FOR_APPLICATION *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP11_VERIFY_EDIT_BUTTON_APPEARS_AFTER_ENTERING_EMAILADDRESS *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25028" started-at="2016-11-04T13:08:35Z" finished-at="2016-11-04T13:09:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25028" started-at="2016-11-04T13:08:35Z" finished-at="2016-11-04T13:09:00Z">
+      <class name="com.qait.demo.tests.Test_Level3">
+        <test-method status="PASS" signature="Start_Test_Session()[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="Start_Test_Session" is-config="true" duration-ms="8959" started-at="2016-11-04T18:38:35Z" finished-at="2016-11-04T18:38:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+The application url is :- https://www.flipkart.com]]>
+            </line>
+            <line>
+              <![CDATA[The test browser is :- firefox
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Start_Test_Session -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="handleTestMethodName" is-config="true" duration-ms="1" started-at="2016-11-04T18:38:44Z" finished-at="2016-11-04T18:38:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.Test_Level3.TestStep01_SearchProduct()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP01_SEARCHPRODUCT *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="TestStep01_SearchProduct()[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="TestStep01_SearchProduct" duration-ms="1069" started-at="2016-11-04T18:38:44Z" finished-at="2016-11-04T18:38:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep01_SearchProduct -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="take_screenshot_on_failure" is-config="true" duration-ms="3" started-at="2016-11-04T18:38:45Z" finished-at="2016-11-04T18:38:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep01_SearchProduct status=SUCCESS method=Test_Level3.TestStep01_SearchProduct()[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="TestStep02_Verify_User_Is_Able_To_View_Ratings_Of_The_Product()[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="TestStep02_Verify_User_Is_Able_To_View_Ratings_Of_The_Product" duration-ms="4712" started-at="2016-11-04T18:38:45Z" finished-at="2016-11-04T18:38:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep02_Verify_User_Is_Able_To_View_Ratings_Of_The_Product -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-11-04T18:38:45Z" finished-at="2016-11-04T18:38:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.Test_Level3.TestStep02_Verify_User_Is_Able_To_View_Ratings_Of_The_Product()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP02_VERIFY_USER_IS_ABLE_TO_VIEW_RATINGS_OF_THE_PRODUCT *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="take_screenshot_on_failure" is-config="true" duration-ms="5" started-at="2016-11-04T18:38:50Z" finished-at="2016-11-04T18:38:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep02_Verify_User_Is_Able_To_View_Ratings_Of_The_Product status=SUCCESS method=Test_Level3.TestStep02_Verify_User_Is_Able_To_View_Ratings_Of_The_Product()[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="handleTestMethodName" is-config="true" duration-ms="1" started-at="2016-11-04T18:38:50Z" finished-at="2016-11-04T18:38:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.Test_Level3.TestStep03_Verify_Feilds_Are_Expandable()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP03_VERIFY_FEILDS_ARE_EXPANDABLE *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="TestStep03_Verify_Feilds_Are_Expandable()[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="TestStep03_Verify_Feilds_Are_Expandable" duration-ms="320" started-at="2016-11-04T18:38:50Z" finished-at="2016-11-04T18:38:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Element [[FirefoxDriver: firefox on WINDOWS (a0602cb7-457a-4544-9fea-3b3f4f44637d)] -> css selector: .dRqIrL._2GQLOX] could not be clicked! Element is not clickable at point (119, 9.399993896484375). Other element would receive the click: <div class="_1H5F__" data-reactid="10"></div>
+Command duration or timeout: 196 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ASDP1511PO01976', ip: '10.0.31.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a0602cb7-457a-4544-9fea-3b3f4f44637d]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestStep03_Verify_Feilds_Are_Expandable -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="take_screenshot_on_failure" is-config="true" duration-ms="1" started-at="2016-11-04T18:38:50Z" finished-at="2016-11-04T18:38:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep03_Verify_Feilds_Are_Expandable status=SUCCESS method=Test_Level3.TestStep03_Verify_Feilds_Are_Expandable()[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050] output=Element [[FirefoxDriver: firefox on WINDOWS (a0602cb7-457a-4544-9fea-3b3f4f44637d)] -> css selector: .dRqIrL._2GQLOX] could not be clicked! Element is not clickable at point (119, 9.399993896484375). Other element would receive the click: <div class="_1H5F__" data-reactid="10"></div>
+Command duration or timeout: 196 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ASDP1511PO01976', ip: '10.0.31.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a0602cb7-457a-4544-9fea-3b3f4f44637d]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-11-04T18:38:50Z" finished-at="2016-11-04T18:38:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.Test_Level3.TestStep04_Verify_Select_Dropdown_Is_Present()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP04_VERIFY_SELECT_DROPDOWN_IS_PRESENT *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="TestStep04_Verify_Select_Dropdown_Is_Present()[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="TestStep04_Verify_Select_Dropdown_Is_Present" duration-ms="94" started-at="2016-11-04T18:38:50Z" finished-at="2016-11-04T18:38:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep04_Verify_Select_Dropdown_Is_Present -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="take_screenshot_on_failure" is-config="true" duration-ms="1" started-at="2016-11-04T18:38:50Z" finished-at="2016-11-04T18:38:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep04_Verify_Select_Dropdown_Is_Present status=SUCCESS method=Test_Level3.TestStep04_Verify_Select_Dropdown_Is_Present()[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="handleTestMethodName" is-config="true" duration-ms="1" started-at="2016-11-04T18:38:50Z" finished-at="2016-11-04T18:38:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.Test_Level3.TestStep05_Verify_User_Navigates_To_New_Window()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP05_VERIFY_USER_NAVIGATES_TO_NEW_WINDOW *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="TestStep05_Verify_User_Navigates_To_New_Window()[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="TestStep05_Verify_User_Navigates_To_New_Window" duration-ms="412" started-at="2016-11-04T18:38:50Z" finished-at="2016-11-04T18:38:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep05_Verify_User_Navigates_To_New_Window -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="take_screenshot_on_failure" is-config="true" duration-ms="2" started-at="2016-11-04T18:38:51Z" finished-at="2016-11-04T18:38:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep05_Verify_User_Navigates_To_New_Window status=SUCCESS method=Test_Level3.TestStep05_Verify_User_Navigates_To_New_Window()[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="TestStep06_Verify_User_Is_Able_To_Naviagte_On_Clicking_The_Product()[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="TestStep06_Verify_User_Is_Able_To_Naviagte_On_Clicking_The_Product" duration-ms="1568" started-at="2016-11-04T18:38:51Z" finished-at="2016-11-04T18:38:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TEST PASSED: PageTitle for Moto E3 Power (Black, 16 GB) | Buy Moto E3 Power (Black, 16 GB) at Best Price in India | Flipkart.com contains: 'Moto E3 Power (Black, 16 GB) | Buy Moto E3 Power (Black, 16 GB) at Best Price in India | Flipkart.com'.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestStep06_Verify_User_Is_Able_To_Naviagte_On_Clicking_The_Product -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-11-04T18:38:51Z" finished-at="2016-11-04T18:38:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.Test_Level3.TestStep06_Verify_User_Is_Able_To_Naviagte_On_Clicking_The_Product()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP06_VERIFY_USER_IS_ABLE_TO_NAVIAGTE_ON_CLICKING_THE_PRODUCT *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="take_screenshot_on_failure" is-config="true" duration-ms="2" started-at="2016-11-04T18:38:52Z" finished-at="2016-11-04T18:38:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep06_Verify_User_Is_Able_To_Naviagte_On_Clicking_The_Product status=SUCCESS method=Test_Level3.TestStep06_Verify_User_Is_Able_To_Naviagte_On_Clicking_The_Product()[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050] output=TEST PASSED: PageTitle for Moto E3 Power (Black, 16 GB) | Buy Moto E3 Power (Black, 16 GB) at Best Price in India | Flipkart.com contains: 'Moto E3 Power (Black, 16 GB) | Buy Moto E3 Power (Black, 16 GB) at Best Price in India | Flipkart.com'.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="TestStep06_Verify_User_Is_Able_To_Verify_PinCode()[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="TestStep06_Verify_User_Is_Able_To_Verify_PinCode" duration-ms="34" started-at="2016-11-04T18:38:52Z" finished-at="2016-11-04T18:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep06_Verify_User_Is_Able_To_Verify_PinCode -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-11-04T18:38:52Z" finished-at="2016-11-04T18:38:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.Test_Level3.TestStep06_Verify_User_Is_Able_To_Verify_PinCode()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP06_VERIFY_USER_IS_ABLE_TO_VERIFY_PINCODE *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="take_screenshot_on_failure" is-config="true" duration-ms="2" started-at="2016-11-04T18:38:52Z" finished-at="2016-11-04T18:38:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep06_Verify_User_Is_Able_To_Verify_PinCode status=SUCCESS method=Test_Level3.TestStep06_Verify_User_Is_Able_To_Verify_PinCode()[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="handleTestMethodName" is-config="true" duration-ms="1" started-at="2016-11-04T18:38:52Z" finished-at="2016-11-04T18:38:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.Test_Level3.TestStep07_Verify_Similar_Products_Are_Presnt_For_Product_Details_Page()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP07_VERIFY_SIMILAR_PRODUCTS_ARE_PRESNT_FOR_PRODUCT_DETAILS_PAGE *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="TestStep07_Verify_Similar_Products_Are_Presnt_For_Product_Details_Page()[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="TestStep07_Verify_Similar_Products_Are_Presnt_For_Product_Details_Page" duration-ms="32" started-at="2016-11-04T18:38:52Z" finished-at="2016-11-04T18:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep07_Verify_Similar_Products_Are_Presnt_For_Product_Details_Page -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="take_screenshot_on_failure" is-config="true" duration-ms="1" started-at="2016-11-04T18:38:52Z" finished-at="2016-11-04T18:38:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep07_Verify_Similar_Products_Are_Presnt_For_Product_Details_Page status=SUCCESS method=Test_Level3.TestStep07_Verify_Similar_Products_Are_Presnt_For_Product_Details_Page()[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="TestStep08_Verify_User_Is_Able_To_Buy_The_Product()[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="TestStep08_Verify_User_Is_Able_To_Buy_The_Product" duration-ms="2744" started-at="2016-11-04T18:38:52Z" finished-at="2016-11-04T18:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep08_Verify_User_Is_Able_To_Buy_The_Product -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-11-04T18:38:52Z" finished-at="2016-11-04T18:38:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.Test_Level3.TestStep08_Verify_User_Is_Able_To_Buy_The_Product()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP08_VERIFY_USER_IS_ABLE_TO_BUY_THE_PRODUCT *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="take_screenshot_on_failure" is-config="true" duration-ms="1" started-at="2016-11-04T18:38:55Z" finished-at="2016-11-04T18:38:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep08_Verify_User_Is_Able_To_Buy_The_Product status=SUCCESS method=Test_Level3.TestStep08_Verify_User_Is_Able_To_Buy_The_Product()[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-11-04T18:38:55Z" finished-at="2016-11-04T18:38:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.Test_Level3.TestStep09_Verify_User_Navigated_To_Shipping_Page()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP09_VERIFY_USER_NAVIGATED_TO_SHIPPING_PAGE *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="TestStep09_Verify_User_Navigated_To_Shipping_Page()[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="TestStep09_Verify_User_Navigated_To_Shipping_Page" duration-ms="583" started-at="2016-11-04T18:38:55Z" finished-at="2016-11-04T18:38:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TEST PASSED: PageTitle for Flipkart.com: Secure Payment: Login > Select Shipping Address > Review Order > Place Order contains: 'Flipkart.com: Secure Payment: Login > Select Shipping Address > Review Order > Place Order'.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestStep09_Verify_User_Navigated_To_Shipping_Page -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="take_screenshot_on_failure" is-config="true" duration-ms="2" started-at="2016-11-04T18:38:56Z" finished-at="2016-11-04T18:38:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep09_Verify_User_Navigated_To_Shipping_Page status=SUCCESS method=Test_Level3.TestStep09_Verify_User_Navigated_To_Shipping_Page()[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050] output=TEST PASSED: PageTitle for Flipkart.com: Secure Payment: Login > Select Shipping Address > Review Order > Place Order contains: 'Flipkart.com: Secure Payment: Login > Select Shipping Address > Review Order > Place Order'.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-11-04T18:38:56Z" finished-at="2016-11-04T18:38:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.Test_Level3.TestStep10_Verify_User_Is_Able_To_SignUp_For_Application()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP10_VERIFY_USER_IS_ABLE_TO_SIGNUP_FOR_APPLICATION *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="TestStep10_Verify_User_Is_Able_To_SignUp_For_Application()[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="TestStep10_Verify_User_Is_Able_To_SignUp_For_Application" duration-ms="145" started-at="2016-11-04T18:38:56Z" finished-at="2016-11-04T18:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep10_Verify_User_Is_Able_To_SignUp_For_Application -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="take_screenshot_on_failure" is-config="true" duration-ms="2" started-at="2016-11-04T18:38:56Z" finished-at="2016-11-04T18:38:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep10_Verify_User_Is_Able_To_SignUp_For_Application status=SUCCESS method=Test_Level3.TestStep10_Verify_User_Is_Able_To_SignUp_For_Application()[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-11-04T18:38:56Z" finished-at="2016-11-04T18:38:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.Test_Level3.TestStep11_Verify_Edit_Button_Appears_After_Entering_EmailAddress()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP11_VERIFY_EDIT_BUTTON_APPEARS_AFTER_ENTERING_EMAILADDRESS *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="TestStep11_Verify_Edit_Button_Appears_After_Entering_EmailAddress()[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="TestStep11_Verify_Edit_Button_Appears_After_Entering_EmailAddress" duration-ms="3596" started-at="2016-11-04T18:38:56Z" finished-at="2016-11-04T18:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep11_Verify_Edit_Button_Appears_After_Entering_EmailAddress -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="take_screenshot_on_failure" is-config="true" duration-ms="1" started-at="2016-11-04T18:38:59Z" finished-at="2016-11-04T18:38:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep11_Verify_Edit_Button_Appears_After_Entering_EmailAddress status=SUCCESS method=Test_Level3.TestStep11_Verify_Edit_Button_Appears_After_Entering_EmailAddress()[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="close_Test_Session()[pri:0, instance:com.qait.demo.tests.Test_Level3@3bfdc050]" name="close_Test_Session" is-config="true" duration-ms="693" started-at="2016-11-04T18:38:59Z" finished-at="2016-11-04T18:39:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- close_Test_Session -->
+      </class> <!-- com.qait.demo.tests.Test_Level3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

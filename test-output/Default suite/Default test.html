@@ -1,0 +1,166 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Nov 04 18:38:35 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>25 seconds (25028 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qait.demo.tests.Test_Level3.TestStep01_SearchProduct()'><b>TestStep01_SearchProduct</b><br>Test class: com.qait.demo.tests.Test_Level3</td>
+<td></td>
+<td>1</td>
+<td>com.qait.demo.tests.Test_Level3@3bfdc050</td></tr>
+<tr>
+<td title='com.qait.demo.tests.Test_Level3.TestStep02_Verify_User_Is_Able_To_View_Ratings_Of_The_Product()'><b>TestStep02_Verify_User_Is_Able_To_View_Ratings_Of_The_Product</b><br>Test class: com.qait.demo.tests.Test_Level3</td>
+<td></td>
+<td>4</td>
+<td>com.qait.demo.tests.Test_Level3@3bfdc050</td></tr>
+<tr>
+<td title='com.qait.demo.tests.Test_Level3.TestStep03_Verify_Feilds_Are_Expandable()'><b>TestStep03_Verify_Feilds_Are_Expandable</b><br>Test class: com.qait.demo.tests.Test_Level3<br/>
+<a href="#Output-240630125" onClick='toggleBox("Output-240630125", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-240630125" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-240630125">
+Element [[FirefoxDriver: firefox on WINDOWS (a0602cb7-457a-4544-9fea-3b3f4f44637d)] -> css selector: .dRqIrL._2GQLOX] could not be clicked! Element is not clickable at point (119, 9.399993896484375). Other element would receive the click: <div class="_1H5F__" data-reactid="10"></div>
+Command duration or timeout: 196 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ASDP1511PO01976', ip: '10.0.31.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a0602cb7-457a-4544-9fea-3b3f4f44637d<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qait.demo.tests.Test_Level3@3bfdc050</td></tr>
+<tr>
+<td title='com.qait.demo.tests.Test_Level3.TestStep04_Verify_Select_Dropdown_Is_Present()'><b>TestStep04_Verify_Select_Dropdown_Is_Present</b><br>Test class: com.qait.demo.tests.Test_Level3</td>
+<td></td>
+<td>0</td>
+<td>com.qait.demo.tests.Test_Level3@3bfdc050</td></tr>
+<tr>
+<td title='com.qait.demo.tests.Test_Level3.TestStep05_Verify_User_Navigates_To_New_Window()'><b>TestStep05_Verify_User_Navigates_To_New_Window</b><br>Test class: com.qait.demo.tests.Test_Level3</td>
+<td></td>
+<td>0</td>
+<td>com.qait.demo.tests.Test_Level3@3bfdc050</td></tr>
+<tr>
+<td title='com.qait.demo.tests.Test_Level3.TestStep06_Verify_User_Is_Able_To_Naviagte_On_Clicking_The_Product()'><b>TestStep06_Verify_User_Is_Able_To_Naviagte_On_Clicking_The_Product</b><br>Test class: com.qait.demo.tests.Test_Level3<br/>
+<a href="#Output-1027495011" onClick='toggleBox("Output-1027495011", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1027495011" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1027495011">
+TEST PASSED: PageTitle for Moto E3 Power (Black, 16 GB) | Buy Moto E3 Power (Black, 16 GB) at Best Price in India | Flipkart.com contains: 'Moto E3 Power (Black, 16 GB) | Buy Moto E3 Power (Black, 16 GB) at Best Price in India | Flipkart.com'.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.qait.demo.tests.Test_Level3@3bfdc050</td></tr>
+<tr>
+<td title='com.qait.demo.tests.Test_Level3.TestStep06_Verify_User_Is_Able_To_Verify_PinCode()'><b>TestStep06_Verify_User_Is_Able_To_Verify_PinCode</b><br>Test class: com.qait.demo.tests.Test_Level3</td>
+<td></td>
+<td>0</td>
+<td>com.qait.demo.tests.Test_Level3@3bfdc050</td></tr>
+<tr>
+<td title='com.qait.demo.tests.Test_Level3.TestStep07_Verify_Similar_Products_Are_Presnt_For_Product_Details_Page()'><b>TestStep07_Verify_Similar_Products_Are_Presnt_For_Product_Details_Page</b><br>Test class: com.qait.demo.tests.Test_Level3</td>
+<td></td>
+<td>0</td>
+<td>com.qait.demo.tests.Test_Level3@3bfdc050</td></tr>
+<tr>
+<td title='com.qait.demo.tests.Test_Level3.TestStep08_Verify_User_Is_Able_To_Buy_The_Product()'><b>TestStep08_Verify_User_Is_Able_To_Buy_The_Product</b><br>Test class: com.qait.demo.tests.Test_Level3</td>
+<td></td>
+<td>2</td>
+<td>com.qait.demo.tests.Test_Level3@3bfdc050</td></tr>
+<tr>
+<td title='com.qait.demo.tests.Test_Level3.TestStep09_Verify_User_Navigated_To_Shipping_Page()'><b>TestStep09_Verify_User_Navigated_To_Shipping_Page</b><br>Test class: com.qait.demo.tests.Test_Level3<br/>
+<a href="#Output-1127338375" onClick='toggleBox("Output-1127338375", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1127338375" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1127338375">
+TEST PASSED: PageTitle for Flipkart.com: Secure Payment: Login > Select Shipping Address > Review Order > Place Order contains: 'Flipkart.com: Secure Payment: Login > Select Shipping Address > Review Order > Place Order'.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qait.demo.tests.Test_Level3@3bfdc050</td></tr>
+<tr>
+<td title='com.qait.demo.tests.Test_Level3.TestStep10_Verify_User_Is_Able_To_SignUp_For_Application()'><b>TestStep10_Verify_User_Is_Able_To_SignUp_For_Application</b><br>Test class: com.qait.demo.tests.Test_Level3</td>
+<td></td>
+<td>0</td>
+<td>com.qait.demo.tests.Test_Level3@3bfdc050</td></tr>
+<tr>
+<td title='com.qait.demo.tests.Test_Level3.TestStep11_Verify_Edit_Button_Appears_After_Entering_EmailAddress()'><b>TestStep11_Verify_Edit_Button_Appears_After_Entering_EmailAddress</b><br>Test class: com.qait.demo.tests.Test_Level3</td>
+<td></td>
+<td>3</td>
+<td>com.qait.demo.tests.Test_Level3@3bfdc050</td></tr>
+</table><p>
+</body>
+</html>
