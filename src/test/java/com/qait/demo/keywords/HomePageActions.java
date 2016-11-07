@@ -210,6 +210,18 @@ public class HomePageActions extends GetPage {
 
 	public void Verify_User_Navigates_To_New_Window() {
 		 click(element("product_first"));
+
+	}
+
+	public void verify_User_Chooses_Out_Of_Stock_Product() {
+	    element("out_of_stock").click();
 		
 	}
+
+	public void verify_Suitable_Text_Is_Dispalyed() {
+		Assert.assertTrue(element("coming_soon").isDisplayed(),"[ASSERT FAILED]: Suitable Text Is Not Dispalyed");
+		
+	}
+
+	
 }

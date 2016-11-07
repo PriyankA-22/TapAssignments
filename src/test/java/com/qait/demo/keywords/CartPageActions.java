@@ -77,6 +77,55 @@ public class CartPageActions extends GetPage {
 	   Assert.assertTrue(response,"[ASSERT FAILED]: User Is Not Able To Edit the Email Address");
 		
 	}
+	
+	public void verify_Checkbox_Is_Initially_Unchecked() {
+		Assert.assertTrue(element("default_checkbox").isEnabled(),"[ASSERT FAILED]: Checkbox is Enabled");
+		
+	}
+
+	public void verify_User_Is_Able_To_check_Pop_Up_On_Cart_Page() {
+		
+   	Assert.assertTrue(element("compare_popup").isDisplayed(),"[ASSERT FAILED]: Compare_Popup Is Not Dispalyed");
+  	element("compare_btn").click();
+		
+	}
+
+	public void verify_User_Navigated_To_Compare_Page() {
+		verifyPageTitleContains("Compare Store Online - Buy Compare Products Online at Best Price in India | Flipkart.com");
+		
+	}
+
+	public void verify_User_Is_Able_To_Go_To_Compare_Button() {
+		element("default_checkbox").click();
+	}
+
+	public void verify_Comparing_Feilds_Are_Empty() {
+	   Assert.assertTrue(element("compare_fields").isDisplayed(),"[ASSERT FAILED]: Comparing Feilds Not Present"); 
+	  
+		
+	}
+
+	public void verify_User_Compares_The_Product() {
+		element("brand_dropdown").click();
+		element("brand_name").click();
+		wait.hardWait(1);
+		element("product_name").click();
+		// elements("choose_product").get(elements("choose_product").size()-1).click();
+		element("choose_product").click();
+		
+	}
+	
+	public void verify_User_Switches_To_Previous_Window(){
+	     webdriver.navigate().back();
+	
+}
+
+	public void verify_User_Navigates_To_Home_Page() {
+	    wait.hardWait(1);
+	   element("flipkart_logo").click();
+		
 	}
 
 
+
+}

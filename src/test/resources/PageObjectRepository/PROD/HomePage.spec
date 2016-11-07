@@ -23,7 +23,7 @@ select_disciplin                 css                  ._3MJtLy
 expand_dropdown                     css                .dRqIrL._2GQLOX
 rating_icon                         css                ._1M5rur
 product_title                       css                ._3eAQiD
-product_first                     css                   ._1Nyybr._30XEf0
+product_first                     xpath                    (//img[@class='_1Nyybr _30XEf0'])[2]
 pincode_bar                       css                    ._2IqPSX._1L003Y
 similar_products                  css                   .LsWl-C
 buy_product                       css                    ._3zLR9i._3Plo8Q._16LyaZ._36SmAs
@@ -32,4 +32,15 @@ email_feild                       css                     #email
 edit_btn                           css                     .edit-icon.change
 help_btn                           css                    div.GSPgJx +a div._2O_Aso
 help_heading                       css                    ._24Lb6I
+default_checkbox                   xpath                  //div[@class="_1p7h2j"]//parent::label
+compare_btn                        css                    .G934d8>span
+compare_popup                      css                     .n-BeRV
+compare_fields                     css                     ._3LoADf
+brand_dropdown                     css                    ._3092M2.LykW5d
+brand_name                         css                  ._2KISpu
+product_name                       xpath                   //div[@class='_3092M2 LykW5d' and contains(text(),'Choose a Product')]
+choose_product                     xpath                 .//*[@id='fk-compare-page']/div[2]/div/div/div[1]/div[2]/div/div[2]/div[1]/div/div[3]/div[2]/div/div[1]
+flipkart_logo                      css                    .flipkart-logo.pure-u
+out_of_stock                      xpath                    (//img[@class='_1Nyybr _30XEf0'])[2]
+coming_soon                        css                      .row._3FV-Hc 
 ====================================================================================
