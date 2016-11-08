@@ -155,15 +155,51 @@ public class Test_Level3 {
 		test.homePage.verify_User_Chooses_Out_Of_Stock_Product();
 	}
 	
-//	@Test()
-//	public void TestStep22_Verify_Suitable_Message_Is_Dispalyed_For_The_Product(){
-//		test.homePage.verify_Suitable_Text_Is_Dispalyed();
-//	}
+	@Test()
+	public void TestStep22_Verify_Suitable_Message_Is_Dispalyed_For_The_Product(){
+		test.homePage.verify_Suitable_Text_Is_Dispalyed();
+	}
+	
+	@Test()
+	public void TestStep23_Verify_Thankyou_Message_Is_Displayed_On_Entering_Valid_Id(){
+		test.cartPage.verify_User_Is_Able_To_View_Success_Message("xyz@gmail.com");
+	}
+	
+	@Test()
+	public void TestStep24_Verify_Cart_Defaults_To_One_As_A_Quantity(){
+		test.cartPage.verify_Cart_Does_Not_Accept_Zero_As_A_Quantity();
+	}
 	
 	
+	@Test()
+	public void TestStep25_Verify_Same_Number_Is_Verified_On_Cart_On_HomePage(){
+		test.homePage.verify_Same_Number_Appears_On_Cart_On_Home_Page();
+	}
 	
+	@Test()
+	public void TestStep26_Verify_User_Searches_For_Out_Of_Stock_Product(){
+		test.homePage.enterProductName(getYamlValue("productName"));
+		test.homePage.clickSearchIcon();
+	}
+	
+	@Test()
+	public void TestStep27_Verify_Product_Is_Available_For_Valid_PinCode_Only(){
+		test.homePage.Verify_User_Navigates_To_New_Window();
+		test.cartPage.verify_Product_Is_Available_Only_For_Valid_PinCode();
+	}
+	
+	@Test()
+	public void TestStep28_Verify_Valid_Id_Accepts_The_Offer(){
+		test.cartPage.verify_Valid_Id_Is_Acceptable();
 }	
+  
+	@Test()
+	public void TestStep29_Verify_User_Is_Able_To_View_Options_For_Choosed_Product(){
+		test.cartPage.verify_User_Is_Able_To_View_Different_Version_Of_The_Product();
+	}
 	
+	
+}
 //	@AfterMethod
 //	public void take_screenshot_on_failure(ITestResult result) {
 //		test.takescreenshot.takeScreenShotOnException(result);

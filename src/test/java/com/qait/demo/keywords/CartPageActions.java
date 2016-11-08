@@ -1,5 +1,7 @@
 package com.qait.demo.keywords;
 
+import static com.qait.automation.utils.YamlReader.getYamlValue;
+
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.Date;
@@ -126,6 +128,54 @@ public class CartPageActions extends GetPage {
 		
 	}
 
+	public void verify_User_Is_Able_To_View_Success_Message( String id) {
+		
+		element("enter_id").sendKeys(id);
+		element("notify_me").click();
+		
+	}
+
+	public void verify_Cart_Does_Not_Accept_Zero_As_A_Quantity() {
+		element("cart_button").click();
+		verifyPageTitleContains("Flipkart.com: Shopping Cart");
+		element("cart_field").click();
+		element("cart_input").clear();
+		//element("cart_field").sendKeys(String.valueOf(quantity));
+		element("cart_input").sendKeys("0");
+		element("save_btn").click();
+		element("back_homepage").click();
+
+	}
+
+	public void verify_Product_Is_Available_Only_For_Valid_PinCode() {
+		 element("change_btn").click();
+		 element("pincode_feild").clear();
+		 element("pincode_feild").sendKeys("456532");
+		 element("change_btn").click();
+		
+		
+	}
+
+	public void verify_Valid_Id_Is_Acceptable() {
+		element("change_btn").click();
+		element("pincode_feild").clear();
+		element("pincode_feild").sendKeys("474005");
+		
+	}
+
+	public void verify_User_Is_Able_To_View_Different_Version_Of_The_Product() {
+		element("product_color").click();
+		
+	}
+
+	
+		
+	}
+
+	
+		
+	
 
 
-}
+
+

@@ -223,5 +223,10 @@ public class HomePageActions extends GetPage {
 		
 	}
 
+	public void verify_Same_Number_Appears_On_Cart_On_Home_Page() {
+	   Assert.assertTrue(element("cart_number").isDisplayed(),"[ASSERT FAILED]: Correct Number Is Not Dispalyed On Cart On Home Page");
+		
+	}
+
 	
 }
