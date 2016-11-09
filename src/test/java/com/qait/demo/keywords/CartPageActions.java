@@ -24,7 +24,6 @@ import com.thoughtworks.selenium.Wait.WaitTimedOutException;
 public class CartPageActions extends GetPage {
 
 	WebDriver driver;
-	private EventFiringWebDriver e_driver;
 
 	public CartPageActions(WebDriver driver) {
 		super(driver, "HomePage");
@@ -103,8 +102,7 @@ public class CartPageActions extends GetPage {
 
 	public void verify_Comparing_Feilds_Are_Empty() {
 	   Assert.assertTrue(element("compare_fields").isDisplayed(),"[ASSERT FAILED]: Comparing Feilds Not Present"); 
-	  
-		
+
 	}
 
 	public void verify_User_Compares_The_Product() {
@@ -128,9 +126,9 @@ public class CartPageActions extends GetPage {
 		
 	}
 
-	public void verify_User_Is_Able_To_View_Success_Message( String id) {
+	public void verify_User_Is_Able_To_View_Success_Message() {
 		
-		element("enter_id").sendKeys(id);
+		element("enter_id").sendKeys("474005");
 		element("notify_me").click();
 		
 	}
@@ -166,6 +164,40 @@ public class CartPageActions extends GetPage {
 	public void verify_User_Is_Able_To_View_Different_Version_Of_The_Product() {
 		element("product_color").click();
 		
+	}
+
+	public void verify_User_Can_Sign_Up_After_Adding_Product_In_cart() {
+		element("cart_button").click();
+		element("sign_up").click();
+		
+	}
+
+
+	public void verify_User_Is_Able_To_Enter_Credentials(String data) {
+		verifyPageTitleContains("Flipkart.com: Login");
+		element("email_btn").click();
+		element("email_btn").sendKeys(data);
+		
+	}
+
+	public void verify_User_Successfully_Logs_In(String pwd) {
+		element("passwd_feild").click();
+		element("passwd_feild").sendKeys(pwd);
+		Assert.assertTrue(element("login_btn").isEnabled(),"[ASSERT FAILED]: Login Button Is Enabled after Filling the Feilds");
+		
+		
+		
+	}
+
+	public void verify_User_Is_Able_To_Sign_Up_For_Login_Page() {
+		element("sign_in_btn").click();
+		element("sign_feild").sendKeys("0987654321");
+		
+	}
+
+	public void verify_User_Is_Able_To_Navigate_Back_To_Shipping_Page() {
+		element("close_icon").click();
+	//	Assert.assertTrue(element("continue_btn").isEnabled(),"[ASSERT FAILED]: Continue Button Is Not Disabled");
 	}
 
 	
